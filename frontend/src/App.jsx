@@ -26,7 +26,58 @@ function Home() {
 
           <Link to="/complaints">My Complaints</Link>
           <Link to="/report">Report Complaint</Link>
-          <Link to="/login" className="login-btn">
+          {/* Notification Center */}
+<div className="notification-wrapper">
+  <button className="notification-btn" title="Notifications">
+    🔔
+    <span className="notification-badge">3</span>
+  </button>
+
+  <div className="notification-dropdown">
+    <div className="notification-header">
+      <div>
+        <h3>Notifications</h3>
+        <span>3 new updates</span>
+      </div>
+      <button>Mark all read</button>
+    </div>
+
+    <div className="notification-item unread">
+      <span className="notification-icon">🚧</span>
+      <div>
+        <strong>Complaint update</strong>
+        <p>Your road complaint is now in progress.</p>
+        <small>5 minutes ago</small>
+      </div>
+    </div>
+
+    <div className="notification-item unread">
+      <span className="notification-icon">✅</span>
+      <div>
+        <strong>Complaint resolved</strong>
+        <p>Your streetlight complaint has been resolved.</p>
+        <small>1 hour ago</small>
+      </div>
+    </div>
+
+    <div className="notification-item unread">
+      <span className="notification-icon">📢</span>
+      <div>
+        <strong>NagarSathi update</strong>
+        <p>New civic services are now available.</p>
+        <small>2 hours ago</small>
+      </div>
+    </div>
+
+    <div className="notification-footer">
+  View all notifications →
+</div>
+
+</div> {/* notification-dropdown */}
+
+</div> {/* notification-wrapper */}
+
+<Link to="/login" className="login-btn">
   Login
 </Link>
         </div>
