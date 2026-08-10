@@ -57,10 +57,13 @@ function Dashboard() {
       {/* Dashboard Navbar */}
       <nav className="dashboard-navbar">
 
-        <div className="dashboard-logo">
-  <span className="logo-icon">🏙️</span>
-  <span>NagarSathi</span>
-</div>
+        <div className="logo">
+  <img
+  src="/nagarsathi-logo.png"
+  alt="NagarSathi"
+/>
+  <span>NAGARSATHI</span>
+</div>  
 
         <div className="dashboard-nav">
 

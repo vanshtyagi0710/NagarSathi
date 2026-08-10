@@ -1,4 +1,5 @@
 import './App.css'
+import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Login from './pages/Login'
 import Register from './pages/Register'
@@ -9,14 +10,51 @@ import ComplaintDetails from "./pages/ComplaintDetails";
 import About from "./pages/About";
 
 function Home() {
+  const [notificationsOpen, setNotificationsOpen] = useState(false)
+  const [notifications, setNotifications] = useState([
+  {
+    id: 1,
+    icon: "🚧",
+    title: "Complaint update",
+    message: "Your road complaint is now in progress.",
+    time: "5 minutes ago",
+    unread: true
+  },
+  {
+    id: 2,
+    icon: "✅",
+    title: "Complaint resolved",
+    message: "Your streetlight complaint has been resolved.",
+    time: "1 hour ago",
+    unread: true
+  },
+  {
+    id: 3,
+    icon: "📢",
+    title: "NagarSathi update",
+    message: "New civic services are now available.",
+    time: "2 hours ago",
+    unread: true
+    }
+  ]);
+  const markNotificationAsRead = (id) => {
+  setNotifications(
+    notifications.map(notification =>
+      notification.id === id
+        ? { ...notification, unread: false }
+        : notification
+    )
+  )
+}
   return (
     <div className="app">
 
       {/* Navigation Bar */}
       <nav className="navbar">
         <div className="logo">
-          🏙️ NagarSathi
-        </div>
+  <img src="/nagarsathi-logo.png" alt="NagarSathi" />
+  <span>NAGARSATHI</span>
+</div>
 
         <div className="nav-links">
           <a href="#home">Home</a>
@@ -30,7 +68,9 @@ function Home() {
 <div className="notification-wrapper">
   <button className="notification-btn" title="Notifications">
     🔔
-    <span className="notification-badge">3</span>
+    <span className="notification-badge">
+  {notifications.filter(n => n.unread).length}
+</span>
   </button>
 
   <div className="notification-dropdown">
@@ -39,7 +79,18 @@ function Home() {
         <h3>Notifications</h3>
         <span>3 new updates</span>
       </div>
-      <button>Mark all read</button>
+      <button
+  onClick={() => {
+    setNotifications(
+      notifications.map(notification => ({
+        ...notification,
+        unread: false
+      }))
+    )
+  }}
+>
+  Mark all read
+</button>
     </div>
 
     <div className="notification-item unread">
@@ -100,15 +151,15 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-btn">
-              Report an Issue
-            </button>
+  <Link to="/report" className="primary-btn">
+    Report an Issue
+  </Link>
 
-            <button className="secondary-btn">
-              Track Complaint
-            </button>
-          </div>
-        </div>
+  <Link to="/complaints" className="secondary-btn">
+    Track Complaint
+  </Link>
+</div>
+</div>
 
         <div className="hero-card">
           <div className="city-icon">🏙️</div>
@@ -123,8 +174,8 @@ function Home() {
           <div className="issue-icons">
             <div>🛣️<span>Roads</span></div>
             <div>🗑️<span>Garbage</span></div>
-            <div>💡<span>Lights</span></div>
-            <div>💧<span>Water</span></div>
+            <div>💡<span>Electricity</span></div>
+            <div>💧<span>Drainage</span></div>
           </div>
         </div>
         <div className="city-details">

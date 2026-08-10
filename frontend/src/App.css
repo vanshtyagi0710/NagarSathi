@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7353,4 +7353,236 @@ background-position: 8px 8px, 0 0;
     right: 15px;
     width: auto;
   }
+}
+/* =========================
+   NAGARSATHI LOGO
+========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: 750;
+  color: #111827;
+  white-space: nowrap;
+}
+
+.logo img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.logo span {
+  letter-spacing: -0.5px;
+}
+/* ================================
+   NagarSathi Navbar Logo
+   ================================ */
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar .logo img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  display: block;
+}
+
+.navbar .logo span {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar .logo img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  display: block;
+}
+
+.navbar .logo span {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+/* =========================================
+   PREMIUM HERO BUTTONS
+   ========================================= */
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+/* Common button styling */
+.hero-buttons a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 175px;
+  height: 56px;
+  padding: 0 28px;
+
+  border-radius: 14px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+
+  cursor: pointer;
+  overflow: hidden;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+/* =========================================
+   REPORT AN ISSUE - PREMIUM BLUE
+   ========================================= */
+
+.hero-buttons .primary-btn {
+  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb 0%,
+    #1d4ed8 55%,
+    #1e40af 100%
+  );
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow:
+    0 10px 25px rgba(37, 99, 235, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* Shine effect */
+.hero-buttons .primary-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+
+  width: 80%;
+  height: 100%;
+
+  background: linear-gradient(
+    110deg,
+    transparent,
+    rgba(255, 255, 255, 0.22),
+    transparent
+  );
+
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+}
+
+.hero-buttons .primary-btn:hover::before {
+  left: 140%;
+}
+
+.hero-buttons .primary-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 16px 35px rgba(37, 99, 235, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* =========================================
+   TRACK COMPLAINT - PREMIUM GLASS
+   ========================================= */
+
+.hero-buttons .secondary-btn {
+  color: #172033;
+
+  background: rgba(255, 255, 255, 0.85);
+
+  border: 1px solid rgba(37, 99, 235, 0.18);
+
+  box-shadow:
+    0 8px 24px rgba(15, 23, 42, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.hero-buttons .secondary-btn:hover {
+  color: #1d4ed8;
+
+  background: white;
+
+  border-color: rgba(37, 99, 235, 0.35);
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 14px 30px rgba(37, 99, 235, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+/* Click effect */
+.hero-buttons a:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 600px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .hero-buttons a {
+    width: 100%;
+    min-width: unset;
+  }
+}
+/* Premium NagarSathi Logo Text */
+.navbar .logo span {
+  font-family: "Poppins", "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+
+  background: linear-gradient(
+    135deg,
+    #111827 0%,
+    #2563eb 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  transition: all 0.25s ease;
+}
+
+.navbar .logo:hover span {
+  letter-spacing: -0.3px;
+  filter: brightness(1.08);
 }
