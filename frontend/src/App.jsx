@@ -7,6 +7,7 @@ import ReportComplaint from './pages/ReportComplaint'
 import MyComplaints from "./pages/MyComplaints";
 import ComplaintDetails from "./pages/ComplaintDetails";
 import About from "./pages/About";
+import AdminDashboard from "./pages/admin/AdminDashboard";
 
 function Home() {
   return (
@@ -174,6 +175,7 @@ function App() {
           path="/report"
           element={<ReportComplaint />}
         />
+        <Route path="/admin" element={<AdminDashboard />} />
   
       </Routes>
     </BrowserRouter>
