@@ -1,0 +1,175 @@
+complaint_text,category,location
+Large pothole on the main road,Road,Main Market
+Deep pothole near the college gate,Road,College Gate
+The road surface is badly damaged,Road,City Park
+There are many potholes on our street,Road,Railway Station
+Broken road near the market,Road,Railway Station
+The main road has several large cracks,Road,Bus Stand
+Damaged road is causing problems for vehicles,Road,Main Market
+A big pothole is blocking part of the road,Road,Municipal Office
+Garbage is overflowing near the market,Garbage,Main Market
+Garbage has not been collected for three days,Garbage,Residential Area
+There is a pile of garbage near our house,Garbage,School Road
+Trash bins are overflowing in our area,Garbage,College Gate
+Uncollected waste is lying on the street,Garbage,College Gate
+The garbage collection service is not working,Garbage,Main Market
+People are dumping garbage near the park,Garbage,Railway Station
+There is a lot of waste outside the school,Garbage,Railway Station
+Streetlight is not working,Streetlight,Municipal Office
+The street light near our house is broken,Streetlight,Residential Area
+Several streetlights are not working,Streetlight,College Gate
+The road is dark because the streetlight is broken,Streetlight,Municipal Office
+Streetlight stopped working last night,Streetlight,Railway Station
+The lamp post is not turning on,Streetlight,Municipal Office
+There is no light on our street at night,Streetlight,School Road
+A broken streetlight needs repair,Streetlight,Railway Station
+The drain is completely blocked,Drainage,Temple Road
+Drainage water is overflowing onto the road,Drainage,Residential Area
+Our street drain is clogged,Drainage,City Park
+The drain near the market is blocked,Drainage,College Gate
+Dirty water is collecting because the drain is blocked,Drainage,Bus Stand
+The drainage system is overflowing,Drainage,School Road
+Blocked drain is causing water to collect,Drainage,Government Hospital
+The roadside drain needs cleaning,Drainage,City Park
+The public park needs more benches,Other,Bus Stand
+There is a broken signboard near the school,Other,Railway Station
+The community hall needs maintenance,Other,Government Hospital
+The public toilet needs cleaning,Other,Main Market
+There is a damaged bench in the park,Other,Main Market
+The park gate is broken,Other,School Road
+A public facility in our area needs repair,Other,Main Market
+There is a damaged notice board near the office,Other,Government Hospital
+Deep pothole near the bus stop,Road,Government Hospital
+Uneven road surface is causing problems,Road,Residential Area
+The road is damaged outside the hospital,Road,City Park
+Several cracks have appeared on the street,Road,College Gate
+Household waste is piling up in our locality,Garbage,Temple Road
+Garbage bags are scattered around the neighborhood,Garbage,Municipal Office
+The waste collection vehicle did not come today,Garbage,Main Market
+Overflowing trash is making the area dirty,Garbage,School Road
+The street lamp has stopped working,Streetlight,Main Market
+The lamp post outside our house is not working,Streetlight,Municipal Office
+The road becomes completely dark because of a faulty streetlight,Streetlight,City Park
+A streetlight needs replacement near the bus stop,Streetlight,Residential Area
+Rainwater cannot flow because the drain is clogged,Drainage,Government Hospital
+The roadside drainage is full of waste,Drainage,Residential Area
+Water is collecting due to a blocked drain,Drainage,Railway Station
+The drain is overflowing near our house,Drainage,Main Market
+The public playground equipment is damaged,Other,College Gate
+The park needs general maintenance,Other,Railway Station
+A public notice board is damaged,Other,City Park
+The community center requires repair,Other,Main Market
+hole,Road,Railway Station
+There is a huge pathole in traffic jam,Road,Main Market
+whole,Road,School Road
+The road has a large crack near the bus stop,Road,City Park
+A deep pothole is causing problems for vehicles,Road,Temple Road
+The street surface is broken near the school,Road,Government Hospital
+Several potholes are visible on the residential road,Road,Bus Stand
+The main road is badly damaged after the rain,Road,Government Hospital
+A section of the road has collapsed,Road,Government Hospital
+The road near the hospital needs urgent repair,Road,Railway Station
+There are dangerous cracks on the street,Road,City Park
+The pavement is uneven and damaged,Road,Main Market
+A pothole has appeared outside the market,Road,Residential Area
+The road surface is full of cracks,Road,Bus Stand
+Vehicles are having difficulty because of the damaged road,Road,Municipal Office
+The lane near the bus stand has many potholes,Road,Railway Station
+The road has broken patches near the intersection,Road,Bus Stand
+A damaged road is making travel difficult in our area,Road,Temple Road
+Garbage is piling up beside the road,Garbage,School Road
+The waste collection truck has not arrived,Garbage,City Park
+Trash is scattered around the neighborhood,Garbage,Municipal Office
+The garbage bin is completely full,Garbage,Railway Station
+Household waste has been left uncollected,Garbage,Government Hospital
+There is a large pile of rubbish near the market,Garbage,College Gate
+Waste is accumulating outside the apartments,Garbage,Railway Station
+The garbage container needs to be emptied,Garbage,College Gate
+Uncollected trash is creating a bad smell,Garbage,Government Hospital
+The street is covered with discarded waste,Garbage,School Road
+Our area has not received garbage collection,Garbage,City Park
+Rubbish has been lying near the bus stop,Garbage,Main Market
+The public garbage bin is overflowing,Garbage,Railway Station
+Waste has accumulated near the community center,Garbage,Residential Area
+Garbage bags are scattered across the street,Garbage,Government Hospital
+The waste disposal area is full,Garbage,Railway Station
+Residents are complaining about missed garbage collection,Garbage,Temple Road
+There is too much household waste near our building,Garbage,School Road
+The streetlight near the school is not working,Streetlight,Temple Road
+A lamp post has stopped working,Streetlight,Bus Stand
+The road becomes dark because the streetlights are off,Streetlight,City Park
+The street lamp outside our house is broken,Streetlight,Bus Stand
+Several streetlights are not functioning,Streetlight,Railway Station
+The light on the main street has gone out,Streetlight,Municipal Office
+A broken lamp post is making the area dark,Streetlight,Municipal Office
+The streetlight near the bus stop needs repair,Streetlight,City Park
+The lamp near the market is not turning on,Streetlight,Residential Area
+A streetlight has been damaged by weather,Streetlight,School Road
+The neighborhood needs a working street lamp,Streetlight,Residential Area
+The light pole near the park is not working,Streetlight,School Road
+The street remains dark due to a faulty lamp,Streetlight,Government Hospital
+A street lamp is flickering and needs repair,Streetlight,Railway Station
+The streetlight outside the community hall is broken,Streetlight,Bus Stand
+The main road has several faulty streetlights,Streetlight,Municipal Office
+A lamp post near the crossing has stopped working,Streetlight,Temple Road
+The drain near our house is blocked,Drainage,Main Market
+Rainwater is collecting because the drain is clogged,Drainage,College Gate
+The roadside drain is overflowing,Drainage,Main Market
+Dirty water is standing near the blocked drain,Drainage,Bus Stand
+The drainage channel is filled with waste,Drainage,Bus Stand
+Water is accumulating on the street after rain,Drainage,School Road
+The drain needs immediate cleaning,Drainage,Residential Area
+A clogged drain is causing waterlogging,Drainage,Main Market
+The open drain is full of garbage,Drainage,School Road
+Wastewater is not flowing through the drain,Drainage,School Road
+The drainage pipe appears to be blocked,Drainage,Residential Area
+Floodwater is collecting near the roadside drain,Drainage,Temple Road
+The drain outside the house is overflowing,Drainage,Municipal Office
+Stagnant water has formed because of poor drainage,Drainage,City Park
+The neighborhood drain is badly clogged,Drainage,Municipal Office
+Rainwater cannot flow through the drainage channel,Drainage,College Gate
+The drain is overflowing onto the road,Drainage,Main Market
+Blocked drainage is causing dirty water to collect,Drainage,Municipal Office
+The park bench is damaged,Other,City Park
+The community hall needs repairs,Other,Government Hospital
+The public playground equipment is broken,Other,Main Market
+The park gate needs to be repaired,Other,City Park
+A bench in the public garden is broken,Other,School Road
+The community center requires maintenance,Other,Bus Stand
+The park fence has been damaged,Other,Temple Road
+A playground swing is broken,Other,College Gate
+The public facility near our area needs repair,Other,City Park
+The garden gate is damaged,Other,Municipal Office
+A public bench needs replacement,Other,Bus Stand
+The community park needs maintenance,Other,Municipal Office
+The playground equipment is unsafe,Other,Main Market
+The public building needs general repairs,Other,City Park
+A damaged fence is present near the park,Other,Municipal Office
+The park facilities require maintenance,Other,Residential Area
+The public shelter needs repair,Other,Railway Station
+A large crack has appeared across the road,Road,Bus Stand
+The street lamp near the hospital is not working,Streetlight,Government Hospital
+The lamp post on our street needs replacement,Streetlight,Bus Stand
+The streetlight near the school gate has gone out,Streetlight,Municipal Office
+The garbage bin is overflowing onto the street,Garbage,Municipal Office
+Overflowing garbage bags are scattered outside the house,Garbage,College Gate
+Trash is overflowing from the waste container,Garbage,Residential Area
+The drain is overflowing because it is blocked,Drainage,Government Hospital
+Water is overflowing from the blocked roadside drain,Drainage,Temple Road
+A clogged drain is causing wastewater to overflow,Drainage,College Gate
+Rainwater is collecting in potholes on the damaged road,Road,Main Market
+The road is flooded because the roadside drain is blocked,Drainage,Government Hospital
+A damaged road has deep water-filled cracks after rain,Road,City Park
+Blocked drainage is causing waterlogging across the street,Drainage,Railway Station
+The road is dark because the streetlights are not working,Streetlight,College Gate
+The damaged road has several dangerous potholes,Road,Railway Station
+A broken streetlight is making the road difficult to see at night,Streetlight,Residential Area
+The road surface is badly damaged near the lamp post,Road,Main Market
+The public garbage bin needs to be emptied,Garbage,Main Market
+The park bench is broken and needs repair,Other,Temple Road
+Waste is accumulating beside the community center,Garbage,Main Market
+The community hall requires maintenance,Other,Municipal Office
+The public toilet drain is blocked and wastewater is backing up,Drainage,Bus Stand
+The park gate needs repair,Other,Bus Stand
+Stagnant water is collecting around the public toilet,Drainage,Temple Road
+The playground equipment is damaged,Other,Municipal Office
